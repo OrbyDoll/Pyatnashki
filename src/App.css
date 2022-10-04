@@ -20,23 +20,7 @@ body{
   border-radius: 5px;
 
 }
-.d-row{
-  background-color: white;
-  display: flex;
-  font-display: row;
-  width: auto;
-  height: auto;
-  z-index: 0;
-
-}
-.d-col{
-  display: flex;
-  flex-direction: column;
-  width: auto;
-  height: auto;
-  z-index: 0;
-}
-.d-col-inner{
+.table-inner{
   background-color: grey;
   width: 100px;
   height: 100px;
@@ -44,7 +28,7 @@ body{
   margin: 4px;
   z-index: 0;
 }
-.d-col .empty-square{
+.table-inner .empty-square{
   border: 0;
 
 }
